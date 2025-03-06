@@ -1,14 +1,13 @@
 import './App.css';
+import List from './List';
+import Header from './Header';
 
 const App = () => {
 
   return (
     <div className="App">
-      <ul>
-        <li>test 1</li>
-        <li>test 2</li>
-        <li>test 3</li>
-      </ul>
+      <Header />
+      <List />
     </div>
   );
 }
