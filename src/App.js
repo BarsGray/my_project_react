@@ -1,6 +1,7 @@
 import './App.css';
-import List from './List';
 import Header from './Header';
+import List from './List';
+
 
 const App = () => {
 
