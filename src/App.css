@@ -50,7 +50,7 @@ li {
 
 .header {
   display: grid;
-  grid-template-columns: .1fr 1fr;
+  grid-template-columns: 80px 1fr;
   align-items: center;
 }
 
@@ -60,14 +60,10 @@ li {
   height: 80px;
   border-radius: 50px;
   overflow: hidden;
-  position: relative;
+  display: flex;
 }
 
 .logo img {
-  width: 150%;
+  width: 100%;
   object-fit: cover;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
