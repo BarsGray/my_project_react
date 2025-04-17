@@ -16,9 +16,6 @@ const App = () => {
               <a className="nav_link" href="#">Profile</a>
             </li>
             <li className="nav_item">
-              <a className="nav_link" href="#">Profile</a>
-            </li>
-            <li className="nav_item">
               <a className="nav_link" href="#">Maessages</a>
             </li>
           </ul>
